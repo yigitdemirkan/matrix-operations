@@ -1,0 +1,257 @@
+$date
+	Mon Dec 09 22:52:11 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module matrixops_tb $end
+$var wire 1 ! Z $end
+$var parameter 64 " FP $end
+$var parameter 32 # HP $end
+$var reg 2 $ X [1:0] $end
+$var reg 2 % Y [1:0] $end
+$var reg 1 & clk $end
+$var reg 1 ' enter $end
+$var reg 1 ( rst $end
+$scope module dut $end
+$var wire 2 ) X [1:0] $end
+$var wire 2 * Y [1:0] $end
+$var wire 1 & clk $end
+$var wire 1 ' enter $end
+$var wire 1 ( rst $end
+$var wire 4 + prev_idx [3:0] $end
+$var wire 4 , index [3:0] $end
+$var parameter 2 - IDLE $end
+$var parameter 2 . in $end
+$var parameter 2 / out $end
+$var reg 1 ! Z $end
+$var reg 3 0 cnt [2:0] $end
+$var reg 4 1 ent_cnt [3:0] $end
+$var reg 16 2 matrix [15:0] $end
+$var reg 2 3 prev_X [1:0] $end
+$var reg 2 4 prev_Y [1:0] $end
+$var reg 1 5 prev_Z $end
+$var reg 1 6 prev_ent $end
+$var reg 2 7 state [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10 /
+b1 .
+b0 -
+b101 #
+b1010 "
+$end
+#0
+$dumpvars
+b0 7
+x6
+x5
+bx 4
+bx 3
+b0 2
+b0 1
+b0 0
+b0 ,
+bx +
+b0 *
+b0 )
+1(
+0'
+1&
+b0 %
+b0 $
+0!
+$end
+#5
+06
+b0 3
+b0 +
+b0 4
+0&
+#9
+1'
+0(
+#10
+b1 1
+1&
+#15
+16
+0&
+#19
+0'
+#20
+b1 7
+1&
+#25
+06
+0&
+#29
+1'
+b10 ,
+b10 $
+b10 )
+#30
+b10 1
+b100 2
+1&
+#35
+16
+b10 +
+b10 3
+0&
+#39
+b1 %
+b1 *
+b101 ,
+b1 $
+b1 )
+#40
+b100100 2
+b11 1
+b1 0
+1&
+#45
+b1 3
+b101 +
+b1 4
+0&
+#49
+b1101 ,
+b11 %
+b11 *
+#50
+b10 0
+b100 1
+b10000000100100 2
+1&
+#55
+b1101 +
+b11 4
+0&
+#60
+b101 1
+b11 0
+1&
+#65
+0&
+#69
+b1111 ,
+b11 $
+b11 )
+#70
+b100 0
+b110 1
+b1010000000100100 2
+1&
+#75
+b1111 +
+b11 3
+0&
+#79
+b10 %
+b10 *
+b1000 ,
+b0 $
+b0 )
+#80
+b10 7
+b111 1
+b101 0
+1&
+#85
+b0 3
+b1000 +
+b10 4
+05
+0&
+#89
+b1 %
+b1 *
+b101 ,
+b1 $
+b1 )
+#90
+b110 0
+b1000 1
+1&
+#95
+b1 3
+b101 +
+b1 4
+0&
+#99
+0'
+#100
+1!
+1&
+#105
+06
+15
+0&
+#110
+1&
+#115
+0&
+#119
+b0 %
+b0 *
+b10 ,
+b10 $
+b10 )
+#120
+1&
+#125
+b10 3
+b10 +
+b0 4
+0&
+#129
+b0 ,
+b0 $
+b0 )
+#130
+1&
+#135
+b0 +
+b0 3
+0&
+#139
+1'
+#140
+b1001 1
+b111 0
+1&
+#145
+16
+0&
+#149
+b10 %
+b10 *
+b1001 ,
+b1 $
+b1 )
+#150
+0!
+b0 0
+b1010 1
+1&
+#155
+05
+b1 3
+b1001 +
+b10 4
+0&
+#159
+0'
+#160
+1&
+#165
+06
+0&
+#169
